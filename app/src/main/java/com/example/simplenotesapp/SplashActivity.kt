@@ -16,6 +16,4 @@ class SplashActivity : AppCompatActivity() {
             finish()
         },SPLASH_TIME_OUT)
     }
-
-
 }
