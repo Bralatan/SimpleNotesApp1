@@ -1,10 +1,11 @@
-package com.example.simplenotesapp
+package com.example.simplenotesapp.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import com.example.simplenotesapp.database.Notes
 
 @Dao
 interface NotesDAO {
@@ -12,7 +13,7 @@ interface NotesDAO {
     fun getAlphabetizedWords(): LiveData<List<Notes>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(name_notes:Notes)
+    suspend fun insert(name_notes: Notes)
 
     @Query("DELETE FROM notes_table")
     suspend fun deleteAll()

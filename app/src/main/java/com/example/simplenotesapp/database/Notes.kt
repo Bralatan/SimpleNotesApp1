@@ -1,4 +1,4 @@
-package com.example.simplenotesapp
+package com.example.simplenotesapp.database
 
 import android.provider.ContactsContract
 import androidx.room.ColumnInfo
