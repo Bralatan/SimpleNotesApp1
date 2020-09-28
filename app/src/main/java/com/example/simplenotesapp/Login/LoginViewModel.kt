@@ -1,4 +1,4 @@
-package com.example.simplenotesapp
+package com.example.simplenotesapp.Login
 
 import androidx.lifecycle.ViewModel
 

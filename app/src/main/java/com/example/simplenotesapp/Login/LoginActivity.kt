@@ -1,12 +1,12 @@
-package com.example.simplenotesapp
+package com.example.simplenotesapp.Login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
-import androidx.lifecycle.ViewModelProvider
+import com.example.simplenotesapp.MainActivity
+import com.example.simplenotesapp.R
 
 class LoginActivity : AppCompatActivity() {
 

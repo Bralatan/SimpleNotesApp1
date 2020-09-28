@@ -1,4 +1,4 @@
-package com.example.simplenotesapp
+package com.example.simplenotesapp.MainNotes
 
 import android.os.Handler
 import android.os.Looper
